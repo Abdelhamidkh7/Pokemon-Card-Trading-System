@@ -1,0 +1,83 @@
+{
+    "user1": {
+        "name": "assaad",
+        "email": "assaad@gmail.com",
+        "password": "carbonaro414",
+        "isAdmin": false,
+        "money": 305.70000000000016,
+        "cards": [
+            "card3",
+            "card8",
+            "card4",
+            "card12"
+        ]
+    },
+    "user2": {
+        "name": "fadwa",
+        "email": "fadwu@gmail.com",
+        "password": "carbon414",
+        "isAdmin": false,
+        "money": 352.2,
+        "cards": [
+            "card1"
+        ]
+    },
+    "admin": {
+        "name": "admin",
+        "email": "abed@gmail.com",
+        "password": "admin",
+        "isAdmin": true,
+        "money": 2449.7,
+        "cards": {
+            "0": "card6",
+            "1": "card5",
+            "2": "card10",
+            "3": "card11",
+            "5": "card2",
+            "8": "card7",
+            "9": "card9",
+            "10": "card0",
+            "11": "card13"
+        }
+    },
+    "user4": {
+        "name": "fouad",
+        "email": "fouadkhaled222@gmail.com",
+        "password": "fouadkh333",
+        "isAdmin": false,
+        "money": 500,
+        "cards": []
+    },
+    "user5": {
+        "name": "mohamad",
+        "email": "mo@gmail.com",
+        "password": "aaa",
+        "isAdmin": false,
+        "money": 500,
+        "cards": []
+    },
+    "user6": {
+        "name": "ww",
+        "email": "abedgotit@gmail.com",
+        "password": "2@UG7TpVPHpY",
+        "isAdmin": false,
+        "money": 989.5999999999999,
+        "cards": []
+    },
+    "user7": {
+        "name": "abed",
+        "email": "abedgotit@gmail.com",
+        "password": "d",
+        "isAdmin": false,
+        "money": 484,
+        "cards": []
+    },
+    "user8": {
+        "name": "fouad22",
+        "email": "fouadkhaled222@gmail.com",
+        "password": "aaawww",
+        "isAdmin": false,
+        "money": 484,
+        "cards": []
+    }
+}

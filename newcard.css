@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+ body{
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(23, 163, 117);
+} 
+
+/* .container .registration{
+  display: none;
+} */
+
+.cardform {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:0;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+ .cardform input{
+   height: 40px;
+   width: 50%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   margin-left: 30px;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+  
+ }
+ #description{
+    font-size: 17px;
+
+ }
+ /* .form input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form a{
+  font-size: 16px;
+  color: #009579;
+  text-decoration: none;
+}
+.form a:hover{
+  text-decoration: underline;
+} */
+.cardform input.button{
+  color: #fff;
+  background: rgba(23, 163, 117);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.cardform input.button:hover{
+  background: #006653;
+}
+
+
+
+.error {
+    margin-left: 30px;
+    color: red;
+}
+ h2{
+    margin-left: 30px;
+}
+label{
+    margin-left: 30px;
+}
+.exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 75px;
+    background: none;
+    border: none;
+    color: black;
+}
